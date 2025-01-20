@@ -4,7 +4,7 @@ ZenBliss is a comprehensive mental wellness platform designed to support student
 
 ## 🎯 Concept Map
 
-mermaid
+```mermaid
 graph TD
     A[ZenBliss Platform] --> B[User Management]
     A --> C[Core Features]
@@ -29,12 +29,12 @@ graph TD
     E --> E1[Mood Analytics]
     E --> E2[Usage Statistics]
     E --> E3[Progress Tracking]
-    E --> E4[Alert System]
+    E --> E4[Alert System]```
 
 
 ## 🔄 Workflow
 
-mermaid
+```mermaid
 sequenceDiagram
     participant U as User
     participant A as Authentication
@@ -48,7 +48,7 @@ sequenceDiagram
     F->>D: Track Activities
     D->>U: Show Progress
     U->>S: Request Support
-    S->>U: Provide Assistance
+    S->>U: Provide Assistance```
 
 
 ## 🛠 Tech Stack
